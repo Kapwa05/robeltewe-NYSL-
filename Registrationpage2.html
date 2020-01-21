@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Registration page</title>
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js" async></script>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('images/selam2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+<body>
+
+    <ul>
+        <li class="nav-div"><a href="home.html">Home</a></li>
+        <li class="nav-div"><a href="about.html">About</a></li>
+        <li class="nav-div"><a href="contact.html">Contact</a></li>
+        <li class="nav-div"><a href="Registrationpage2.html">Registration</a></li>
+        <li class="nav-div"><a href="Gameinfo.HTML">Game Info</a></li>
+        <li class="nav-div"><a href="Rules&Policies.html">Rules & Policies</a></li>
+
+    </ul>
+
+
+    <img class="logo" src="nysl_logo.png" alt="">
+
+
+
+
+
+
+
+
+
+    <h1 class="headers">Registration page</h1>
+
+    <form class="for">
+        <label for="playerfirstname">player first name</label>
+        <input type="text" id="playerfirstname">
+        <label for="lastname">last name:</label>
+        <input type="text" id="lastname">
+
+
+        <br>
+        <br><br>
+        <label for="streetAddress">street Address:</label>
+        <input type="text" id="streetAddress">
+    </form>
+
+
+    <form class="for">
+
+        <br><br>
+        <label for="City">city: </label>
+        <input type="text" id="City">
+
+        <label for="Zipcode"> zip Code:</label>
+        <input type="text" id="Zipcode">
+
+
+    </form>
+    <br><br>
+    <form class="for">
+        <label for="BirthDate">Birth Date:</label>
+        <!-- <input type="date" id="myDate" value="1999-07-27"> -->
+        <input type="date" id="BirthDate">
+        <br><br>
+        <label>Gender:</label>
+        <label> <input type="radio" name="gender" value="male">male</label>
+        <!-- </label> -->
+        <input type="radio" name="gender" value="female">female
+
+    </form>
+    <br><br>
+    <form class="for">
+
+        <label>Grade: </label>
+        <label> <input type="radio" value=grade>pre-school</label>
+        <input type=radio value="1"> 1st
+        <input type=radio value="2"> 2nd
+        <input type=radio value="3"> 3rd
+        <input type=radio value="4"> 4th
+        <input type=radio value="5"> 5th
+
+    </form>
+    <br><br>
+    <form class="labels">
+
+        <label>Parents/Gurardin:</label>
+        <label> <input type="text" id="Parents/Gurardin"></label>
+    </form>
+    <form>
+        <br><br>
+        <label>Contact Phone:</label>
+        <label><input type="text" id="Contactphone"></label>
+        <label>Contact Email:</label>
+        <label><input type="text" id="ContactEmail"></label>
+    </form>
+    <br>
+    <form>
+        <h3 class="header-middle">which elementray school do you live near? </h3>
+        <br>
+        <div class="second">
+            <!-- <div class="flex-container"> -->
+            <h3 style="text-align: left;">first closest school:</h3>
+
+
+            <label> <input type="checkbox" name=">AJ Katzenaimer" value="AJ Katzenaimer"></label>
+            <label>AJ Katzenaimer</label>
+
+            <label><input type="checkbox" name="Marjorie P Hart" value="Marjorie P Hart"></label>
+            <label>Marjorie P Hart</label>
+
+            <br><br>
+            <label><input type="checkbox" name="Greenbay" value="Greenbay"></label>
+            <label>Greenbay </label>
+            <label><input type="checkbox" name="North Elementary" value="northelementary"></label>
+            <label>NorthElenemtary</label>
+
+            <br><br>
+            <label><input type="checkbox" name="Howard A Yeager" value="Howard A Yeager"></label>
+            <label>Howard A Yeager</label>
+
+            <label><input type="checkbox" name="south elementray" value="South Elementry"></label>
+            <label>South Elementary</label>
+        </div>
+
+
+    </form>
+
+    <form>
+
+        <div class="left">
+            <h2>second closest school: </h2>
+            <!-- <h3></h3> -->
+            <label> <input type="checkbox" name=">AJ Katzenaimer" value="AJ Katzenaimer"></label>
+            <label>AJ Katzenaimer</label>
+
+            <label> <input type="checkbox" name="Marjorie P Hart" value="Marjorie P Hart"></label>
+            <label>Marjorie P Hart</label>
+            <br><br>
+
+            <label> <input type="checkbox" name="Greenbay" value="greenbay"></label>
+            <label>Greenbay</label>
+
+            <label> <input type="checkbox" name="North Elementary" value="northelementary"></label>
+            <label>NorthElenemtary</label>
+            <br><br>
+
+            <label> <input type="checkbox" name="Howard A Yeager" value="Howard A Yeager"></label>
+            <label>Howard A Yeager</label>
+
+            <label><input type="checkbox" name="south elementray" value="South Elementry"></label>
+
+            <label>South Elementary</label>
+        </div>
+
+        <br><br>
+
+    </form>
+    <br><br><br>
+    <div class="second">
+        <br>
+
+        <h3>What position(s) do you normally play (check all that apply)</h3>
+        <label> <input type="checkbox" name="forward" value="forward"></label>
+        <label>Forward</label>
+
+        <label><input type="checkbox" name="midfield" value="midfield"></label>
+        <label>Midfield</label>
+        <br><br>
+        <label> <input type="checkbox" name="Defense"></label>
+        <label>Defense</label>
+
+        <label><input type="checkbox" name="Goalkepper"></label>
+        <label>Goalkepper</label>
+        <br><br>
+
+    </div>
+    <br>
+    <div class="left">
+        <h3>what position(s) do you want to play (check all that apply)</h3>
+
+        <label><input type="checkbox" name="forward" value="forward"></label>
+        <label >Forward</label>
+
+       <label><input type="checkbox" name="midfield" value="midfield"></label>
+        <label>Midfield</label>
+        <br><br>
+
+        <label><input type="checkbox" name="Defense"></label>
+        <label>Defense</label>
+
+        <label><input type="checkbox" name="Goalkepper"></label>
+        <label>Goalkepper</label>
+    </div>
+    <br><br><br>
+
+    <div class="second">
+        <label>Already Have a Uniform:</label>
+      <label><input name="Already Have a Uniform" value=" Already Have a Uniform"></label>  
+
+
+        <h3>short size</h3>
+
+        <label><input type="checkbox" name="Youth small" value="Youth small"></label>
+        <label >Youth small</label>
+
+        <label> <input type="checkbox" name="medium" value="medium"></label>
+        <label>Medium</label>
+
+        <br>
+        <label><input type="checkbox" name="youth medium" value="youth medium"></label>
+        <label >Youth medium</label>
+
+        <label><input type="checkbox" name="large" value="large"></label>
+        <label>Large</label>
+
+
+        <br><br>
+        <label><input type="checkbox" name="youth large" value="youth large"></label>
+        <label>Youth large</label>
+
+        <label><input type="checkbox" name="extralarge" value="extralarge"></label>
+        <label>ExtraLarge</label>
+
+        <br><br>
+        <label><input type="checkbox" name="small" value="small"></label>
+        <label>Small</label>
+    </div>
+
+    <br>
+
+
+    <h3>jersey size:</h3>
+
+    <div class="left">
+
+        <label><input type="checkbox" name="Youth small" value="Youth small"></label>
+        <label>Youth small</label>
+
+        <label><input type="checkbox" name="medium" value="medium"></label>
+        <label >Medium</label>
+
+        <br><br>
+        <label><input type="checkbox" name="youth medium" value="youth medium"></label>
+        <label >Youth medium</label>
+
+        <label><input type="checkbox" name="large" value="large"></label>
+        <label >Large</label>
+
+
+        <br><br>
+        <label><input type="checkbox" name="youth large" value="youth large"></label>
+        <label>Youth large</label>
+
+        <label><input type="checkbox" name="extralarge" value="extralarge"></label>
+        <label >ExtraLarge</label>
+
+        <br><br>
+        <label><input type="checkbox" name="small" value="small"></label>
+        <label>Small</label>
+
+
+    </div>
+
+
+    <button class="button" type="submit">submit</button>
+
+
+    <p>permission to play</p>
+
+    <h4 class="smallheaders"> the parent or guardian of the minor registrant, agree that the registrant and I will abide
+        by all the
+        rules of
+        the Northside Youth
+        Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in
+        consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby
+        release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and
+        volunteers,including the facilities used for practices and games, against any claim by or on behalf of the
+        registrant as a result of the registrant’s participation in the programand/orbeing transported to or from
+        NYSL
+    </h4>
+    <h4 class="smallheaders"> the parent or guardian of the minor registrant, agree that the registrant and I will abide
+        by all the
+
+        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I
+        have read the cancellation policy and agree to its terms
+        sponsored activities,which transportation.</h4>
+
+
+    <div
+        style="left: 141.763px; top: 742.652px; font-size: 8.43765px; font-family: sans-serif; transform: scaleX(1.01097);">
+        Signature: _________________________________________</div>
+    <div
+        style="left: 656.7px; top: 1045.64px; font-size: 11.88px; font-family: sans-serif; transform: scaleX(1.01016);">
+        date___________________</div>
+    <script src="/js/polyfill.js"></script>
+</body>
+
+</html>
